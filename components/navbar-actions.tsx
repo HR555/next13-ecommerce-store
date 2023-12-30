@@ -8,21 +8,14 @@ import Button from "@/components/ui/button";
 import useCart from "@/hooks/use-cart";
 import Hamburger from "./hamburger";
 import MainNav from "./main-nav";
-import getCategories from "@/actions/get-categories";
 import { Category } from "@/types";
 
-const NavbarActions = () => {
+const NavbarActions = ({categories} : {categories:Category[]}) => {
   const [isMounted, setIsMounted] = useState(false);
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
-  const [categories, setCategories] = useState<Category[]>([]);
 
   useEffect(() => {
-    const getData = async () => {
-      let categories = await getCategories();
-      setCategories(categories);
-    }
-    setIsMounted(true);
-    getData();
+    setIsMounted(true);;
   }, []);
 
   const router = useRouter();

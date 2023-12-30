@@ -31,13 +31,17 @@ const MainNav: React.FC<MainNavProps> = ({
           key={route.href}
           href={route.href}
           className={cn(
-            'text-sm font-medium transition-colors hover:text-black hidden md:block bg-white w-screen md:w-auto',
-            route.active ? 'text-black' : 'text-neutral-500', open ? 'block pt-2 text-lg':'hidden'
-          ) + ' custom'}
+            'text-xl md:text-sm font-medium transition-colors hover:text-black hidden md:block bg-white w-screen md:w-auto pb-6 pl-4 md:p-0',
+            route.active ? 'text-black' : 'text-neutral-500', open ? 'block':'hidden'
+          )}
         >
           {route.label}
       </Link>
       ))}
+      <Link href={'/about'} className={cn(
+            'text-xl md:text-sm font-medium transition-colors hover:text-black hidden md:block bg-white w-screen md:w-auto pb-6 pl-4 md:p-0',
+            pathname === `/about` ? 'text-black' : 'text-neutral-500', open ? 'block':'hidden'
+          )}>About</Link>
     </nav>
   )
 };
