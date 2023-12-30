@@ -17,9 +17,9 @@ const AboutPage = () => {
                     <section className="mb-8">
                         <h2 className="mt-2 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">Who We Are</h2>
                         <p className="text-base leading-7 text-gray-700">
-                            We are more than just an establishment; we are your partners in elevating both your personal and professional brand.
-                            In today's world, cultivating a unique brand is essential for standing out in society. If your aspiration is to become an icon,
-                            Ciyols is the ultimate destination. We extend an open invitation to 'bond with love' – with us, your journey towards excellence begins!
+                            We are more than just an establishment. we are your partners in elevating both your personal and professional brand.
+                            In today&apos;s world, cultivating a unique brand is essential for standing out in society. If your aspiration is to become an icon,
+                            Ciyols is the ultimate destination. We extend an open invitation to "bond with love" with us, your journey towards excellence begins!
                         </p>
                     </section>
 
@@ -43,7 +43,7 @@ const AboutPage = () => {
                         <div className="mt-6">
                             <p className="mt-4 font-semibold text-gray-900">Supply Heat Transfer Materials in Roll Goods Form</p>
                             <p className="mt-2 text-base">
-                                We provide a wide range of heat transfer materials in roll goods form, including PU, Foil, Reflective, Glitter, and more. Whether you're seeking versatility, vibrancy, or unique textures, our selection ensures you have the right materials to bring your creative projects to life. Explore the possibilities with our premium roll goods for all your heat transfer needs.
+                                We provide a wide range of heat transfer materials in roll goods form, including PU, Foil, Reflective, Glitter, and more. Whether you&apos;re seeking versatility, vibrancy, or unique textures, our selection ensures you have the right materials to bring your creative projects to life. Explore the possibilities with our premium roll goods for all your heat transfer needs.
                             </p>
                         </div>
 
@@ -64,7 +64,7 @@ const AboutPage = () => {
                         <div className="mt-6">
                             <p className="mt-4 font-semibold text-gray-900">Decoration Solutions</p>
                             <p className="mt-2 text-base">
-                                Transform your spaces with our comprehensive decoration services. Whether it's for homes, offices, or events, we provide tailored solutions to meet your decoration needs. From conceptualization to execution, we bring creativity and expertise to enhance the aesthetic appeal of any environment. Elevate your surroundings with our personalized decoration services.
+                                Transform your spaces with our comprehensive decoration services. Whether it&apos;s for homes, offices, or events, we provide tailored solutions to meet your decoration needs. From conceptualization to execution, we bring creativity and expertise to enhance the aesthetic appeal of any environment. Elevate your surroundings with our personalized decoration services.
                             </p>
                         </div>
 
