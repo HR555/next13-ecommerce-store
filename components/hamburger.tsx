@@ -1,4 +1,4 @@
-export default function Hamburger({ isOpen }){
+export default function Hamburger({ isOpen } : {isOpen:boolean}){
     return(
         <>
             <div className="hamburger">
