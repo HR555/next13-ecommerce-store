@@ -19,7 +19,7 @@ const AboutPage = () => {
                         <p className="text-base leading-7 text-gray-700">
                             We are more than just an establishment. we are your partners in elevating both your personal and professional brand.
                             In today&apos;s world, cultivating a unique brand is essential for standing out in society. If your aspiration is to become an icon,
-                            Ciyols is the ultimate destination. We extend an open invitation to "bond with love" with us, your journey towards excellence begins!
+                            Ciyols is the ultimate destination. We extend an open invitation to &quot;Bond with Love&quot; with us, your journey towards excellence begins!
                         </p>
                     </section>
 
